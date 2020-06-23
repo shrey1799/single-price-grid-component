@@ -1,0 +1,88 @@
+/* font-family: 'Karla', sans-serif;
+/* weights-400,700 */
+/*Bright Yellow: hsl(71, 73%, 54%)
+Cyan:hsl(179, 62%, 43%)
+#dcecef;
+Grayish Blue: hsl(218, 22%, 67%)
+Light Gray: hsl(204, 43%, 93%)  */
+
+body {
+  background-color: gray;
+  background-color: hsl(204, 43%, 93%) ;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main {
+  background-color: #fff;
+  /* position: fixed;
+  top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);*/
+  width: 50%;
+  margin: 8% auto;
+}
+
+.padd {
+  padding: 2% 4%;
+}
+
+.px30 {
+  font-size: 30px;
+}
+
+.px20 {
+  font-size: 20px;
+}
+
+/* first row */
+.light-gray {
+  color: #D3D3D3;
+}
+
+.cyan {
+  color: cyan;
+  color: hsl(179, 62%, 43%);
+}
+
+.btn-yellow {
+  color: white;
+  background-color: #ffff00;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.bright-yellow {
+  color: #ffff00;
+  color: hsl(71, 73%, 54%);
+}
+
+/* second row left-hand size */
+.subscription {
+  line-height: 2.3;
+  background-color: cyan;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.per-month {
+  display: inline;
+  color: blue;
+  /* color: hsl(218, 22%, 67%); */
+  color: #e6ffff;
+}
+
+/* second row right hand size */
+.why-us {
+  background-color: #30bfbf;
+  color: #e6ffff;
+}
+
+.why-us p {
+  margin-bottom: 0;
+}
+
+.why-us-heading {
+  padding-bottom: 4%;
+  color: white;
+}
